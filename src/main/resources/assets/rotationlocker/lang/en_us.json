@@ -1,0 +1,7 @@
+{
+    "category.rotationlocker": "Rotation Locker",
+    "key.rotationlocker.lock": "Lock Roation",
+    "text.rotationlocker.lock": "Locked block rotation to %s.",
+    "text.rotationlocker.flip": "Flipped block roation lock to %s.",
+    "text.rotationlocker.unlock": "Unlocked block rotation."
+}

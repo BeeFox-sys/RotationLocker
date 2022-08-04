@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "rotationlocker",
+  "version": "${version}",
+
+  "name": "Rotation Locker",
+  "description": "A mod that allows blocks to be placed at fixed rotations, inspired by quarks rotation lock function",
+  "authors": [
+    "Beefox"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "xyz.beefox.rotationlocker.RotationLocker"
+    ]
+  },
+  "mixins": [
+    "rotationlocker.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric-key-binding-api-v1": "*",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
